@@ -63,3 +63,9 @@ return 0;
 }
 
 int yywrap() { return 1; }
+
+
+// To run the code
+// flex count.l
+// gcc lex.yy.c -o count exe
+// count.exe
